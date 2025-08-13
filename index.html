@@ -4,12 +4,137 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <title>Code Mobility</title>
+  <link href="https://fonts.googleapis.com/css2?family=Jost&family=Krona+One&display=swap" rel="stylesheet">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet" type="text/css"/>
 </head>
 
 <body>
-  Hello world
+  <!--Nav bar-->
+  <nav class="navbar bg-light py-3">
+    <div class="container text-center">
+      <a class="navbar-brand h4 m-0" href="#"><span class="code-color">Code</span> <span class="mobile-color">Mobility</span></a>
+      <div>
+        <a href="index.html" class="mx-2 text-dark text-decoration-none">Home</a>
+        <a href="#" class="mx-2 text-dark text-decoration-none">Projects</a>
+        <a href="#" class="mx-2 text-dark text-decoration-none">Courses</a>
+        <a href="page2.html" class="mx-2 text-dark text-decoration-none">About</a>
+        <a href="#" class="text-primary fw-bold text-decoration-none active"><span class="signin-color">Sign In</span></a>
+      </div>
+    </div>
+  </nav>
+<!--Mission Statement-->
+  <section class="container py-5 scroll-fade">
+    <div class="row align-items-center text-center text-md-start">
+      <div class="col-md-6 mb-4 mb-md-0">
+        <h1 class="display-5 fw-bold">Tomorrow Moves at Our Speed.</h1>
+        <p class="lead">Teaching tech to solve real-world problems in developing nations.</p>
+        <a href="#" class="btn btn-primary me-2">Join Free</a>
+        <a href="#" class="btn btn-outline-secondary">See Projects</a>
+      </div>
+      <div class="col-md-6">
+            <img src="https://easy-peasy.ai/cdn-cgi/image/quality=80,format=auto,width=700/https://media.easy-peasy.ai/27feb2bb-aeb4-4a83-9fb6-8f3f2a15885e/be92547a-a350-497e-9ab3-195fa2c86c55.png" class="img-fluid rounded" alt="Students working together">
+          </div>
+        </div>
+      </section>
+<!--This is Live projects map-->
+  <section class="py-5 bg-light">
+    <div class="container">
+      <h3 class="text-center mb-4">Live Projects Changing Communities</h3>
+
+      <div class="map position-relative text-center">
+        <!-- Map Image (PLACEHOLDER)-->
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/World_map_-_low_resolution.svg/1200px-World_map_-_low_resolution.svg.png" class="img-fluid" alt="Map">
+
+        <!-- Fake Pins -->
+        <button class="btn btn-danger position-absolute" style="top: 40%; left: 55%;">📍 Nairobi</button>
+        <button class="btn btn-danger position-absolute" style="top: 50%; left: 75%;">📍 Manila</button>
+      </div>
+
+      <!-- Filter dropdown -->
+      <div class="mt-4 d-flex justify-content-center">
+        <select class="form-select w-auto mx-2">
+          <option>Region</option>
+          <option>Africa</option>
+          <option>Asia</option>
+        </select>
+        <select class="form-select w-auto mx-2">
+          <option>Topic</option>
+          <option>AI</option>
+          <option>Flood Alerts</option>
+        </select>
+      </div>
+
+  <!--Student impact showcase-->
+  <h4 class="mb-3">Student Impact Showcase</h4>
+  <div class="row">
+    <div class="col-12 col-md-4 mb-3">
+      <div class="card h-100 scroll-fade">
+        <div class="card-body">
+          <h5 class="card-title">Maria</h5>
+          <p class="card-text">I built a chatbot for my village!</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-4 mb-3">
+      <div class="card h-100 scroll-fade">
+        <div class="card-body">
+          <h5 class="card-title">Rahul</h5>
+          <p class="card-text">Now I teach others to code!</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-4 mb-3">
+      <div class="card h-100 scroll-fade">
+        <div class="card-body">
+          <h5 class="card-title">Amina</h5>
+          <p class="card-text">We created a solar water sensor!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+    </div>
+  </section>
+  <!--Footer-->
+  <footer class="py-5">
+    <div class="container">
+      <div class="row text-center text-md-start">
+        <div class="col-md-4 mb-4">
+          <!--About column-->
+          <h5 class="about-heading">About</h5>
+          <ul class="list-unstyled">
+              <li><a href="#" class=" text-decoration-none">Mission</a></li>
+              <li><a href="#" class="text-decoration-none">Team</a></li>
+          </ul>
+        </div>
+        <!--get involved column-->
+        <div class="col-md-4 mb-4">
+          <h5 class="about-heading">Get Involved</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-decoration-none">Teach</a></li>
+            <li><a href="#" class="text-decoration-none">Partner</a></li>
+          </ul>
+        </div>
+        <!--contanct colum-->
+        <div class="col-md-4 mb-4">
+          <h5 class="about-heading">Contact</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-decoration-none">Email</a></li>
+            <li><a href="#" class="text-decoration-none">WhatsApp</a></li>
+          </ul>
+        </div>
+    </div>
+      <!--Call to action-->
+      <div class="text-center mt-4">
+        <p class="mb-2">Ready to code for change?</p>
+        <a href="#" class="btn btn-outline-light">Sign Up</a>
+      </div>
+    </div>
+  </footer>
+
   <script src="script.js"></script>
 </body>
 
